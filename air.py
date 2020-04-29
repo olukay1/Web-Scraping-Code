@@ -72,3 +72,5 @@ class AirSpider(scrapy.Spider):
         if next_page:
             yield SeleniumRequest(url = 'https://www.airbnb.ca'+next_page, callback = self.parse, wait_time =3)
             
+
+#Mychange
